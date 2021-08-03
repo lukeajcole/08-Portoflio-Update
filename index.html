@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luke Cole Portfolio</title>
+    <link rel="Stylesheet" href="..\develop\assets\css\reset.css">
+    <link rel="Stylesheet" href="..\develop\assets\css\style.css">
+    <link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="..\develop\assets\js\contact.js"></script>
+</head>
+<!-- Body Start -->
+<body>
+<!-- Header -->
+    <header class="header">
+        <h1>Luke Cole's Portfolio</h1>
+        <img alt="it me, luke" src="..\develop\assets\images\selfie.jpg">
+        <nav class="nav">
+            <a href="#about-me" class="link">About Me</a>
+            <a href="#featured-project" class="link">Projects</a>
+            <a href="#contact" class="link">Contact Me</a>
+        </nav>
+    </header>
+ <!--Main  -->
+    <main class="main">
+        <content class="content">
+            <content-item class=content-item>
+                <aside class="aside">
+                    <h1>About Me</h1>
+               </aside>
+                    <content-main id="about-me" class="project">
+                        I am a hard-working family man with a passion for getting outdoors. At work I tend to challenge the status quo by asking the tough
+                        questions. I love working in teams, especially when my teammates share my big picture, small bite mentality. Outside of work, I enjoy
+                        Disc Golfing, Mountain Biking, Surfing, and Hiking. I was born and raised in Palm Springs, I studied engineering in San Luis Obispo, 
+                        and now I am settled into San Diego for this next chapter of my life with my wife, Kate, and pup, Charles Lickens.
+                    </content-main>
+            </content-item>
+            <content-item class="content-item">
+                <aside class="aside">
+                    <h1>Work</h1>
+                </aside>
+                <content-main class="project">
+                    <a id="featured-project" href="https://joeyfitz.github.io/First-Team-Project/" target="blank"><img alt="Inspiration Station Site" src="..\develop\assets\images\INPS_STATION.PNG"><div class = "project-head">Inspiration Station</div></a>
+                    <a href="https://lukeajcole.github.io/06-Server-Side-API-Weather-Dashboard-LAJC/" target="blank"><img alt="Weather App" src="..\develop\assets\images\weather.png"><div class = "project-head">Health Center</div></a>
+                    <a href="https://lukeajcole.github.io/W5_Day_Scheduler_LAJC/" target="blank"><img alt="Scheduler" src="..\develop\assets\images\scheduler.png"><div class = "project-head">Day Scheduler</div></a>
+                 </content-main>
+            </content-item>
+            <br>
+            <br>
+            <content-item id="contact" class="content-item">
+                <header>
+                    <h1>Contact us</h1>
+                </header>
+                
+                <div id="form">
+                
+                <div class="fish" id="fish"></div>
+                <div class="fish" id="fish2"></div>
+                
+                <form id="waterform" method="post">
+                
+                <div class="formgroup" id="name-form">
+                    <label for="name">Your name*</label>
+                    <input type="text" id="name" name="name" />
+                </div>
+                
+                <div class="formgroup" id="email-form">
+                    <label for="email">Your e-mail*</label>
+                    <input type="email" id="email" name="email" />
+                </div>
+                
+                <div class="formgroup" id="message-form">
+                    <label for="message">Your message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                
+                    <input type="submit" value="Send your message!" />
+                </form>
+                </div>
+            </content-item>
+            <br>
+            <br>
+    </content>
+    </main>
+<!-- Footer -->
+    <footer class="footer">
+        <div class="contact-info">
+            <h1>My Contact info:</h1>
+            <h2>Lukeajcole@gmail.com</h2>
+            <h2>(760)902-7499</h2>
+        </div>
+        <div class="social-media">
+            <h1>My Social Media:</h1>
+            <div class="media-links">
+                <a style="background-color:white; font-size: 300%; padding: 6px; text-decoration: none;" href="https://www.facebook.com/luke.cole.779" target="blank" class="fa fa-facebook"></a>
+                <a style="background-color:white; font-size: 300%; padding: 6px; text-decoration: none;" href="www.linkedin.com/in/luke-cole-2812b262" target="blank" class="fa fa-linkedin"></a>
+                <a style="background-color:white; font-size: 300%; padding: 6px; text-decoration: none;" href="https://www.instagram.com/lukeajcole/" target="blank" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
